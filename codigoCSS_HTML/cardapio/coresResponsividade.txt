@@ -1,0 +1,2 @@
+Na simulaçao de responsividade o site começa a funcionar na proporção
+50% - 125%
