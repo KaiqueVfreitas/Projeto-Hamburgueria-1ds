@@ -5,7 +5,6 @@
     margin: 0; /*Retirando toda margin pré setada*/
     padding: 0; /*Retirando todo padding pré setado*/
 }
-
 /*Estilização do topo da página*/
 .topoPag{
     background-color: #BD0F0F;
@@ -32,7 +31,6 @@
     font-size: 6em;
     font-family: Rockstar;
 }
-
 /*Estilisação dos botões para navegação do site*/
 .btnNavegacao{
     /*Aglomeração dos botões*/
@@ -52,7 +50,6 @@
     font-size: 1.4em;
     font-weight: 400;
 }
-
 .btnNav:hover{
     text-decoration:overline;
     font-size: 22pt;
@@ -65,9 +62,44 @@
     width: 100%;
 }
 
+
 /*Estilização do final da página*/
 .finalPag{
     background-color: #000000;
-    height: 12vw;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Alterando o texto que está no footer*/
+a.txtFinalPag{
+    color: white;
+    /*Botões individual*/
+    display: flex;
+    color: #FCF6DB;
+    text-decoration: none;
+    font-family: Rockstar;
+    font-size: 2em;
+    font-weight: 400;
+}
+.conteudoListaFooter{
+    display: flex
+}
+iframe.mapa{
+    min-height: 16vw;
+    max-height: 24vw;
+    min-width: 16vw;
+    max-width: 24vw;
+    border-radius: 10%;
+}
+iframe.mapa, ul.conteudoListaFooter{
+    margin-top: 2em;
+    margin-left: 8em;
+    margin-right: 10em;
+}
+iframe.mapa, a.txtFinalPag, img.imgFinalPag{
+    opacity: 80%;
+}
+img.imgFinalPag{
+    height: 1.8em;
 }
