@@ -8,6 +8,46 @@
 body{
     overflow-x: hidden;
 }
+section.infoPag{
+    display: flex;
+    justify-content: center;
+}
+.btnNav{
+    /*Botões individual*/
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    flex-grow: 3;
+    font-family: Rockstar;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+.btnNav:hover{
+    text-decoration:overline;
+    font-size: 22pt;
+    color: #FCF6DB;
+
+}
+#localizacaoNav{
+    padding-right: 0.9em;
+}
+
+section.btnNavegacao{
+    display: flex;
+    justify-content: space-between;
+}
+a.btnNav{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*Estilização do incio da pagina*/
+header.topoPag{
+    background-color: #BD0F0F;
+}
 /*Imagem do NAV*/
 .imgNav{
     height: 4em;
@@ -15,11 +55,28 @@ body{
 
 
 
+/*Estilização do meio da página*/
+main.meioPag{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #FDBD42;
+}
 /*Imagem do cardápio*/
-.imgCardapio{
-    height: 15em;
+img.imgCardapio{
+    margin: 0.7em;
+    height: 18em;
+    border: 2px solid #FCF6DB;
+    border-radius: 8%;
 }
 
+hr.linhaSeparacao{
+    width: 100%;
+    background-color: #BD0F0F;
+    color: #BD0F0F;
+    height: 0.09em;
+    border: none;
+}
 
 /*Estilização do footer da página*/
 footer{
@@ -58,4 +115,12 @@ p.textoFooter{
     color: #FFF;
     font: 700 1em Arial; 
     margin: 1em;
+}
+p#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+div.infoEmpresa{
+    display: flex;
+    justify-content: space-between;
 }

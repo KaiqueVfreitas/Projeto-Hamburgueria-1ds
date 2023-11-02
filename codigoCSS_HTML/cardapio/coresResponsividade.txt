@@ -6,3 +6,4 @@ CORES BASES DO SITE:
 Amarelo:#FDBD42
 Branco:#FCF6DB
 Vermelho:#BD0F0F
+Preto: #000000
