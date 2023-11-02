@@ -5,6 +5,9 @@
     margin: 0; /*Retirando toda margin pré setada*/
     padding: 0; /*Retirando todo padding pré setado*/
 }
+body{
+    overflow-x: hidden;
+}
 /*Estilização do topo da página*/
 .topoPag{
     background-color: #BD0F0F;
@@ -14,92 +17,134 @@
 .imgNav{
     display: flex;
     justify-content: space-between;
-    min-height: 6.5em;
-    max-height: 14em;
-    min-width: 6.5em;
-    max-width: 14em;
+    height: 5em;
 }
 .infoPag{
     display: flex;
-    flex-grow: 5;
     justify-content: center;
-}
-.topoPag h1{
-    color: #FCF6DB;
-    display: flex;
-    align-items: center;
-    font-size: 6em;
-    font-family: Rockstar;
 }
 /*Estilisação dos botões para navegação do site*/
 .btnNavegacao{
     /*Aglomeração dos botões*/
     display: flex;
-    order: 3;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 .btnNav{
     /*Botões individual*/
     display: flex;
     justify-content: center;
-    color: #FCF6DB;
+    color: #000;
+    font-weight: 900;
     text-decoration: none;
     flex-grow: 3;
     font-family: Rockstar;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    padding-left: 1.9em;
     font-weight: 400;
+}
+#localizacaoNav{
+    padding-right: 0.9em;
 }
 .btnNav:hover{
     text-decoration:overline;
     font-size: 22pt;
+    color: #FCF6DB;
 
 }
+
+
 /*Estilização do meio da página*/
 .meioPag{
     background-color: #FDBD42;
-    height: 160vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    cursor: 8;
+    
+}
+/*Alteração direta nas tags da imagem no meio da página*/
+img.imgCardapio{
+    height: 18em;
+    border: 1.5px solid #FCF6DB;
+    border-radius: 8%;
+    margin: 1.6em;
+}
+
+/*Linha de separação entre footer e meio da pagina*/
+hr.linhaSeparacao{
     width: 100%;
+    background-color: #BD0F0F;
+    color: #BD0F0F;
+    height: 0.09em;
+    border: none;
 }
 
 
 /*Estilização do final da página*/
-.finalPag{
-    background-color: #000000;
-    width: 100%;
+.finalPag {
+    background-color: #000;
+}
+/* Estilização do texto */
+.textoFooter {
+    color: #FFF;
+    font: 700 1em Arial; 
+    margin: 1em;
+}
+/* Estilização da logo central */
+#imgLogoFooter{
+    height: 6em;
+    border: 2px solid #FCF6DB;
+    border-radius: 50%;
+}
+.divImgFooter{
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
-/*Alterando o texto que está no footer*/
-a.txtFinalPag{
-    color: white;
-    /*Botões individual*/
+.imgRedesSociais{
     display: flex;
-    color: #FCF6DB;
-    text-decoration: none;
-    font-family: Rockstar;
-    font-size: 2em;
-    font-weight: 400;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.conteudoListaFooter{
-    display: flex
+.infoEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-iframe.mapa{
-    min-height: 16vw;
-    max-height: 24vw;
-    min-width: 16vw;
-    max-width: 24vw;
-    border-radius: 10%;
+#enderecoFooter{
+    display: flex;
+    justify-content: center;
 }
-iframe.mapa, ul.conteudoListaFooter{
-    margin-top: 2em;
-    margin-left: 8em;
-    margin-right: 10em;
-}
-iframe.mapa, a.txtFinalPag, img.imgFinalPag{
-    opacity: 80%;
-}
-img.imgFinalPag{
+#faceFooter{
     height: 1.8em;
+}
+#zappFooter{
+    height: 1.8em;
+}
+#instaFooter{
+    height: 1.8em;
+}
+.redeSocialFooter{
+    margin: 0.2em;
+}
+#imgLogoFooter{
+    margin-top: 1em;
+}
+
+/* Estilização para proporção de telas de desktop menores */
+@media screen and (max-width: 815px) and (min-width: 750px) {
+    /*Estilização do meio da página*/
+    .meioPag{
+        background-color: #FDBD42;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    /*Alteração direta nas tags da imagem no meio da página*/
+    img.imgCardapio{
+        height: 16em;
+        border: 1.5px solid #FCF6DB;
+        border-radius: 8%;
+        margin: 1em;
+    }
 }

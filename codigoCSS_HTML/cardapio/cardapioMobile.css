@@ -1,0 +1,61 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+/*Tirando toda margin e padding pre setado*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/*Imagem do NAV*/
+.imgNav{
+    height: 4em;
+}
+
+
+
+/*Imagem do cardápio*/
+.imgCardapio{
+    height: 15em;
+}
+
+
+/*Estilização do footer da página*/
+footer{
+    background-color: #000000;
+    width: 100%;
+    
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+
+/*Imagem da logo no footer*/
+#imgLogoFooter{
+    margin-top: 1em;
+    height: 9em;
+    border: 1.5px solid #FCF6DB;
+    border-radius: 50%;
+}
+img.redeSocialFooter{
+    height: 2em;
+}
+div.imgRedesSociais{
+    display: flex;
+    justify-content: space-between;
+}
+/*Alteração dos botoes para redes sociais de forma individual*/
+#zappFooter{
+    margin-left: 8em;
+}
+#instaFooter{
+    margin-right: 8em;
+}
+/*Alteração do texto*/
+p.textoFooter{
+    color: #FFF;
+    font: 700 1em Arial; 
+    margin: 1em;
+}
