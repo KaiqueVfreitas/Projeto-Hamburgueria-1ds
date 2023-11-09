@@ -89,19 +89,18 @@ hr.linhaSeparacao{
     color: #FFF;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(1.5vw, 2vw, 5vw);
+    font-size: clamp(90%, 100%, 11 0%);
     margin: 1em;
 }
 /* Estilização da logo central */
 #imgLogoFooter{
-    max-height: 16em;
+    height: clamp(2em,10em,25em);
     border: 2px solid #FCF6DB;
     border-radius: 50%;
 }
 .divImgFooter{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .imgRedesSociais{
     display: flex;
@@ -126,6 +125,7 @@ hr.linhaSeparacao{
 #imgLogoFooter{
     margin-top: 1%;
 }
+
 @media (max-width: 478px){
     body{
         overflow-x: none;
