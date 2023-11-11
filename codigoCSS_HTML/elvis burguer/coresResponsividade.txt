@@ -1,6 +1,4 @@
-Na simulaçao de responsividade o site começa a funcionar na proporção
-50% - 125%, teste feito no nav
-largura de 800 a 1200 
+O site não está com nenhuma responsividade e nem com texto sobre nos
 
 CORES BASES DO SITE:
 Amarelo:#FDBD42

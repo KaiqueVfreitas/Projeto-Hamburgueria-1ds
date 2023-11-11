@@ -1,0 +1,126 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+/*Tirando toda margin e padding pre setado*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+section.infoPag{
+    display: flex;
+    justify-content: center;
+}
+.btnNav{
+    /*Botões individual*/
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    flex-grow: 3;
+    font-family: Rockstar;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+.btnNav:hover{
+    text-decoration:overline;
+    font-size: 22pt;
+    color: #FCF6DB;
+
+}
+#localizacaoNav{
+    padding-right: 0.9em;
+}
+
+section.btnNavegacao{
+    display: flex;
+    justify-content: space-between;
+}
+a.btnNav{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*Estilização do incio da pagina*/
+header.topoPag{
+    background-color: #BD0F0F;
+}
+/*Imagem do NAV*/
+.imgNav{
+    height: 4em;
+}
+
+
+
+/*Estilização do meio da página*/
+main.meioPag{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #FDBD42;
+}
+/*Imagem do cardápio*/
+img.imgCardapio{
+    margin: 0.7em;
+    height: 18em;
+    border: 2px solid #FCF6DB;
+    border-radius: 8%;
+}
+
+hr.linhaSeparacao{
+    width: 100%;
+    background-color: #BD0F0F;
+    color: #BD0F0F;
+    height: 0.09em;
+    border: none;
+}
+
+/*Estilização do footer da página*/
+footer{
+    background-color: #000000;
+    width: 100%;
+    
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+
+/*Imagem da logo no footer*/
+#imgLogoFooter{
+    margin-top: 1em;
+    height: 9em;
+    border: 1.5px solid #FCF6DB;
+    border-radius: 50%;
+}
+img.redeSocialFooter{
+    height: 2em;
+}
+div.imgRedesSociais{
+    display: flex;
+    justify-content: space-between;
+}
+/*Alteração dos botoes para redes sociais de forma individual*/
+#zappFooter{
+    margin-left: 8em;
+}
+#instaFooter{
+    margin-right: 8em;
+}
+/*Alteração do texto*/
+p.textoFooter{
+    color: #FFF;
+    font: 700 1em Arial; 
+    margin: 1em;
+}
+p#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+div.infoEmpresa{
+    display: flex;
+    justify-content: space-between;
+}
