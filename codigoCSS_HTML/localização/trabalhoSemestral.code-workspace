@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../OneDrive/Etec/trabalhoSemestral"
+		},
+		{
+			"path": "../../OneDrive/Etec"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "trabalhoSemestral"
+	}
+}

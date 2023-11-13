@@ -1,0 +1,156 @@
+/*Usando conteúdo de fora*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+/*Estilização para toda a página*/
+*{
+    margin: 0; /*Retirando toda margin pré setada*/
+    padding: 0; /*Retirando todo padding pré setado*/
+}
+body{
+    overflow-x: hidden;
+}
+/*Estilização do topo da página*/
+header.topoPag{
+    background-color: #BD0F0F;
+    max-height: 15%;
+}
+section.infoPag{
+    display: flex;
+    
+}
+img.imgNav{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 20%;
+}
+
+/*Estilisação dos botões para navegação do site*/
+section.btnNavegacao{
+    /*Aglomeração dos botões*/
+    display: flex;
+    justify-content: center;
+}
+a.btnNav{
+    /*Botões individual*/
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    flex-grow: 1;
+    font-family: Rockstar;
+    font-size: clamp(2vw, 3vw, 8vw); /*clamp é a função que permite ter três valores provaveis o primeiro é o valor minimo, segundo valor preferivel e terceiro valor maximo, unidade de medida em usa o tamanho de um elemento pai e vw é a tela que o usuario ve*/
+    font-weight: 400;
+}
+a.btnNav:hover{
+    text-decoration:overline;
+    font-size: clamp(2.5vw, 3.5vw, 8vw);
+    color: #FCF6DB;
+
+}
+
+
+/*Estilização do meio da página*/
+main.meioPag{
+    background-color: #FDBD42;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    cursor: 8;
+    height: 70%;
+    
+}
+/*Seção para lidar com a parte dos hamburgueres no coletivo*/
+section.hamburgueres{
+    margin: 2vw;
+}
+/*Seção para lidar com a parte das sobremesas no coletivo*/
+section.sobremesas{
+    margin: 2vw;
+}
+/*Seção para lidar com a parte das bebidas no coletivo*/
+section.bebidas{
+    margin: 2vw;
+}
+/*Alteração direta nas tags da imagem no meio da página*/
+img.imgCardapio{
+    border: 2.5px solid #FCF6DB;
+    border-radius: 8%;
+    margin: 2%;
+    height: 45%;
+    width: 45%;
+}
+/*Linha de separação entre footer e meio da pagina*/
+hr.linhaSeparacao{
+    width: 100%;
+    background-color: #BD0F0F;
+    color: #BD0F0F;
+    height: 3px;
+    border: none;
+}
+
+/*Estilização do final da página*/
+footer.finalPag {
+    background-color: #000;
+}
+div.divImgFooter{
+    display: flex;
+    justify-content: center;
+}
+/* Estilização da logo central */
+img#imgLogoFooter{
+    height: clamp(2em,10em,25em);
+    border: 2px solid #FCF6DB;
+    border-radius: 50%;
+}
+a.imgRedesSociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.infoEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Estilização do texto */
+.textoFooter {
+    color: #FFF;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(90%, 100%, 11 0%);
+    margin: 1em;
+}
+#enderecoFooter{
+    display: flex;
+    justify-content: center;
+}
+#faceFooter,
+#instaFooter,
+#zappFooter
+{
+    height: 90%;
+}
+#imgLogoFooter{
+    margin-top: 1%;
+}
+
+@media (max-width: 478px){
+    body{
+        overflow-x: none;
+    }
+    img.imgNav{
+        height: 6%;
+    }
+    main.meioPag{
+        display: flex;
+        gap: 2%;
+    }
+    img.imgCardapio{
+        width: 40%;
+    }
+    #imgLogoFooter{
+        height: 10%;
+    }
+}
