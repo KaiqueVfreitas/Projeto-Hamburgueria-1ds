@@ -159,21 +159,67 @@ hr.linhaSeparacao{
     margin-top: 1%;
 }
 
-@media (max-width: 578px){
-    body{
-        overflow-x: none;
+@media (max-width: 420px){
+    *{
+        padding: 0;
+        margin: 0;
     }
-    img.imgNav{
-        height: 6%;
+    header{
+        height: 5%;
     }
-    main.meioPag{
-        display: flex;
-        gap: 2%;
+    a.btnNav{
+        font-size: 3vw;
+    }
+    a.btnNav:hover{
+        text-decoration: underline;
+        font-size: 4vw;
+    }
+    p.separacaoPalavras{
+        font-size: 1em;
+    }
+    img#logoNav{
+        height: 8vw;
     }
     img.imgCardapio{
-        width: 40%;
+        width: 80%;
     }
-    #imgLogoFooter{
-        height: 35vw;
+    main{
+        gap: 6vw;
+    }
+    
+}
+@media (max-width: 310px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        height: 10%;
+    }
+    a.btnNav{
+        font-size: 5vw;
+    }
+    
+    p.separacaoPalavras{
+        font-size: 1em;
+    }
+    img#logoNav{
+        height: 10vw;
+    }
+    img.imgCardapio{
+        width: 80%;
+    }
+    main{
+        gap: 6vw;
+    }
+    img#imgLogoFooter{
+        margin-top: 12vw;
+        height: 45vw;
+    }
+    img.redeSocialFooter{
+        width: 16vw;
+    }
+    p.textoFooter{
+        font-size: 3.5vw;
     }
 }
