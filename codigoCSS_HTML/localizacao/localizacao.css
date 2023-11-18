@@ -23,19 +23,19 @@ header{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    backdrop-filter: brightness(15%);
+    backdrop-filter: brightness(50%);
     position: fixed;
     width: 100%;
-    height: 20%;
+    height: 10%;
     align-items: center;
 }
 /*Imagem do topo do navegador*/
 img#logoNav{
-    height: 7.5vw; 
+    height: 4vw; 
 }
 p.separacaoPalavras{
     display: flex;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: #FDBD42;
 }
 a.btnNav{
@@ -54,13 +54,15 @@ a.btnNav:hover{
     text-decoration: underline;
     transition: 0.1s 0.1s ease all;
     font-size: clamp(1.5vw, 2.5vw, 8vw);
+    color: #BD0F0F;
+    transition: 0.4s;
 }
 h3.tituloNegocio{
     /*backdrop-filter: blur(1em)*/;
     padding-top: 16%;
     padding-bottom: 16%;
     text-align: center;
-    font-size: 6vw;
+    font-size: 5.5vw;
     color: #FFF;
     font-family: Antonio;
 }
@@ -72,9 +74,7 @@ div#tituloLocal{
     font-family: Antonio;
     background-color: #FDBD42;
 }
-img.imgLocal{
-    height: 9vw;
-}
+
 div#tituloEndereco{
     height: 8vw;
     text-align: center;
@@ -84,9 +84,6 @@ div#tituloEndereco{
     background-color: #BD0F0F;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
-}
-section.slideShow{
-    margin: 10%;
 }
 section.iframeLocal{
     background-color: #000;
@@ -98,11 +95,29 @@ iframe{
     border-radius: 2%;
     margin-top: 9vw;
 }
+section.slideShow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+}
+p.setaSlideShow{
+    color: #FDBD42;
+    font-size: 4vw;
+    cursor: pointer;
+}
+img.imgLocal{
+    border: 0.4vw double #FCF6DB;
+    border-radius: 5%;
+    height: 30vw;
+    width: 45vw;
+}
+
 
 /*Estilização do final da página*/
 footer.finalPag {
     border-top: 0.2vw solid #BD0F0F;
-    background-color: #000;
+    background-color: #100e0e;
 }
 div.divImgFooter{
     display: flex;
