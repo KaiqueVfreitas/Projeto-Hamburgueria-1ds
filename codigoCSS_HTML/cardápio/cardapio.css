@@ -10,7 +10,7 @@ body{
 }
 /*Estilização do topo da página*/
 .topoPag{
-    backdrop-filter: brightness(2%);
+    backdrop-filter: brightness(15%);
     max-height: 15%;
 }
 /*Todas as tag do nav*/

@@ -105,3 +105,9 @@ div.imgRedesSociais{
 #imgLogoFooter{
     margin-top: 1%;
 }
+@media screen and (max-width: 650px) {
+    img.imgSlide {
+        width: 100%;
+        height: 80vw;
+    }
+}

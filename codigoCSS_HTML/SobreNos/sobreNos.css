@@ -84,7 +84,7 @@ p.txtNossoNegocio,
 p.txtNossaHistoria{
     color: #858585;
     margin: 2vw;
-    font-size: 1.3em
+    font-size: 1.3em;
     
 }
 hr.linhaSeparacaoSobreNosHistoria{
@@ -149,7 +149,6 @@ img#imgLogoFooter{
     border: 2px solid #FCF6DB;
     border-radius: 50%;
 }
-
 div.imgRedesSociais{
     display: flex;
     justify-content: center;
@@ -172,4 +171,67 @@ div.imgRedesSociais{
 }
 #imgLogoFooter{
     margin-top: 1%;
+}
+@media screen and (max-width: 650px) {
+    header{
+        height: 8vw;
+    }
+    img#logoNav{
+        height: 6vw;
+    }
+    p.separacaoPalavras{
+        font-size: 2vw;
+    }
+    a.btnNav{
+        font-size: 3vw;
+    }
+    p.txtNossoNegocio,
+    p.txtNossaHistoria{
+    color: #858585;
+    margin: 2vw;
+    font-size: 1em;
+    
+}
+    h3.tituloHistoria,
+    h3.tituloNegocio{
+        font-size: 8vw;
+    }
+    div.separacaoSobreNosHistoria{
+        height: 20vw;
+    }
+    section.nossaHistoria{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    img#ambienteElvis{
+        height: 100vw;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 300px){
+    footer.finalPag{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    img#imgLogoFooter{
+        margin-top: 10%;
+        height: 35vw;
+    }
+    p.textoFooter{
+        font-size: clamp(4vw,5vw,7vw);
+    }
+    div.divImgFooter{
+        display: flex;
+        justify-content: center;
+    }
+    div.imgRedesSociais{
+        flex-wrap: wrap;
+        margin-top: 10%;
+    }
+    img.redeSocialFooter{
+        height: 60%;
+        width: 60%;
+    }
 }

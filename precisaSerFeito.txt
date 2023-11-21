@@ -1,0 +1,17 @@
+*PRECISAMOS FAZER ANTES DA ENTREGA:*
+-Desenvolver uma organização para a tela "home" que combine com as telas mobile
+-Mudar um pouco da tela "localizacao", muito preto e algumas coisas não combinam com o designer da tela total
+
+
+
+
+
+
+
+
+
+
+
+*CONCLUÍDO:*
+-Tela "sobreNos"
+-Tela "cardapio"

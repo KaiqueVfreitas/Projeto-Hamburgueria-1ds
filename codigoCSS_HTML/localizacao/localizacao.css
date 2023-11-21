@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-    backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(15%);
     position: fixed;
     width: 100%;
     height: 10%;
@@ -90,16 +90,17 @@ section.iframeLocal{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12vw;
 }
-iframe{
-    border-radius: 2%;
-    margin-top: 9vw;
-}
+
 section.slideShow{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10%;
+}
+iframe{
+    border-radius: 5%;
 }
 p.setaSlideShow{
     color: #FDBD42;
