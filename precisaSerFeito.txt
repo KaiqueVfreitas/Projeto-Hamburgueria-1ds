@@ -3,10 +3,6 @@
 -Mudar um pouco da tela "localizacao", muito preto e algumas coisas não combinam com o designer da tela total
 
 
-Hospedar arquivo no gitHub
-
-
-
 
 
 
