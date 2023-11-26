@@ -62,58 +62,48 @@ h3.tituloNegocio{
     padding-top: 16%;
     padding-bottom: 16%;
     text-align: center;
-    font-size: 5.5vw;
+    font-size: 4.5vw;
     color: #FFF;
     font-family: Antonio;
 }
-div#tituloLocal{
-    height: 8vw;
-    text-align: center;
-    font-size: 4vw;
-    color: #000;
-    font-family: Antonio;
-    background-color: #FDBD42;
-}
-
 div#tituloEndereco{
-    height: 8vw;
+    height: 5vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.9vw;
     color: #000;
     font-family: Antonio;
     background-color: #BD0F0F;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
-section.iframeLocal{
-    background-color: #000;
+div.localMapa{
+    margin: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12vw;
+    flex-flow: row wrap;
 }
-
+section.iframeLocal{
+    background-color: #000;
+}
 section.slideShow{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 10%;
 }
 iframe{
     border-radius: 5%;
 }
 p.setaSlideShow{
     color: #FDBD42;
-    font-size: 4vw;
+    font-size: 2.5vw;
     cursor: pointer;
+    margin: 2vw;
 }
 img.imgLocal{
     border: 0.4vw double #FCF6DB;
     border-radius: 5%;
-    height: 30vw;
-    width: 45vw;
-}
 
+}
 
 /*Estilização do final da página*/
 footer.finalPag {
@@ -161,4 +151,39 @@ div.divImgFooter{
 }
 #imgLogoFooter{
     margin-top: 1%;
+}
+@media screen and (max-width: 651px) {
+    header{
+        height: 5vw;
+    }
+    iframe{
+        height: 12em;
+        width: 16em;
+    }
+    p.setaSlideShow{
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 250px) {
+    header{
+        height: 5vw;
+    }
+    iframe{
+        height: 9em;
+        width: 10em;
+        margin-bottom: 2vw;
+    }
+    img.imgLocal{
+        height: 60vw;
+        width: 70vw;
+    }
+    div.localMapa{
+        margin: 12vw;
+    }
+    a.linkRedeSocialFooter{
+        height: 9vw;
+    }
+    p.textoFooter{
+        font-size: 3vw;
+    }
 }

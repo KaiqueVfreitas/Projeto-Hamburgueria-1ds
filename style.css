@@ -56,7 +56,7 @@ div.slide{
 
 img.imgSlide{
     width: 100%;
-    height: 38vw;
+    height: 40vw;
 }
 /*Estilização do final da página*/
 footer{
@@ -109,5 +109,34 @@ div.imgRedesSociais{
     img.imgSlide {
         width: 100%;
         height: 80vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    img.imgSlide {
+        width: 100%;
+        height: 50vw;
+    }
+    footer{
+        height: 1%;
+    }
+    img#imgLogoFooter{
+        margin-bottom: 5%;
+        height: 5em;
+        border: 0.1vw solid #fff;
+    }
+    a.linkRedeSocialFooter{
+        margin: 1vw;
+        height: 1.5em;
+    }
+    img.redeSocialFooter{
+        height: 1vw;
+    }
+    p.textoFooter{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 250px) {
+    p.textoFooter{
+        font-size: 3vw;
     }
 }
